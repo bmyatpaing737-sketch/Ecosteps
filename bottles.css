@@ -1,0 +1,196 @@
+
+.title {
+    border:1px solid black;
+    background-color:rgb(96, 229, 0);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height:100px;
+    font-size:23px;
+    color:white;
+    padding-bottom:15px;
+     display: flex;
+}
+
+.paragraph p {
+    font-size:22px;
+    text-align: center;
+    margin-top:50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-family: arial;
+}
+
+.line {
+    margin-top:50px;
+}
+
+
+.background img {
+    width:100%;
+}
+
+.tips {
+    text-align: center;
+    font-size: 24px;
+    font-family: sans-serif;
+    margin-top:70px;
+}
+
+.background  {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-repeat: no-repeat;
+ padding-top: 150px;
+ background: url(gallery/bottles.png);
+ width:100% ;
+ height:350px;
+ background-size: cover;
+ margin: 0 auto;
+ overflow: auto;
+ margin-top:50px;
+}
+
+.background .content{
+  font-family:arial;
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 900px;
+  text-align:center ;
+  border-radius: 20px;
+}
+
+.content p {
+    font-size:22px;
+    padding-left:10px;
+    padding-right:19x;
+}
+
+
+
+/* team beading */
+.team_heading {
+    text-align: center;
+    font-size:50px;
+    color:rgb(8, 237, 214);
+    text-shadow: 2px 2px 3px blue
+}
+
+
+.team_div {
+    border:1px solid;
+    font-size:50px;
+    width:50%;
+    padding:15px;
+    margin:40px auto;
+    text-align: center;
+    background-color:beige;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* team container */
+.team_container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly ;
+    margin-bottom: 15px;
+    font-family: Arial;
+}
+.card {
+    border: 1px solid rgb(168, 153, 153);
+    border-radius:12px;
+    margin-bottom:15px;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(246, 5, 101, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+.card img {
+    width: 100%;
+    display:block;
+    height: 250px;;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+   
+}
+.card .text {
+    padding:15px;
+}
+
+
+@media screen and (max-width:600px){
+    .card {
+        width:65%;
+        margin:15px auto;
+    }
+    .card img {
+        height:250px;
+    }
+    .card .text {
+        padding-bottom:10px;
+    }
+    
+}
+
+.videos {
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    }
+
+.videos div {
+    flex-basis:20%;
+    text-align: center;
+    padding:10px;
+    margin-bottom:10px;
+    border-radius: 20px;
+    }
+          
+.videos img {
+    width:300px;
+    height:220px;
+    padding:12px;
+}
+          
+.videos button {
+    border:2px dashed black;
+    font-family: cursive;
+    padding: 4px 5px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+       
+.h2 {
+font-size: 160%;
+}
+
+p {
+  font-size:20px;
+ }
+
+.videos button {
+    background-color: rgb(106, 220, 25);
+}
+
+.team1 {
+    border:1px solid black;
+}  
+.team2 {
+    border:1px solid black;
+}  
+.team3 {
+    border:1px solid black;
+}    
+
+.explore-video {
+    text-align: center;
+    font-size: 30px;
+}
+.youtube {
+    font-family:arial;
+}
+
+.team1, .team2, .team3 {
+    background-color:rgb(215, 241, 215);
+}

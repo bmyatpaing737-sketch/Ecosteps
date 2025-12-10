@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: white;
+    color: rgb(0, 0, 0);
+}
+
+.about-section {
+    text-align: center;
+    padding: 40px 2px;
+    border: 2px solid black;
+    margin-top:5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 17px;
+    background-color: #4b9b00;
+}
+
+.section-title {
+    display:inline-block;
+    background: #88e6a4;
+    padding: 15px 50px;
+    border-radius: 25px;
+    font-size: 32px;
+    margin-bottom: 50px;
+    color: rgb(248, 248, 248);
+}
+
+.cards-container {
+    justify-content: center;
+    margin: auto;
+    display:flex;
+    flex-wrap: wrap;
+    color: white;
+
+}
+
+.card1 .card2 .card3 {
+    width: 30%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1 .card2 .card3 .icon {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.cards-container .icon {
+    font-size:50px;
+}
+
+.card1 .card2 .card3 .card4 h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.cards-container p{
+    font-size: 20px;
+}
+
+.divider {
+    width: 2px;
+    background: white;
+}
+
+.team-members {
+    font-size:24px;
+    border:1px solid black;
+    border-radius: 25px;
+    display:flex;
+    background: #88e6a4;
+    margin: 0 auto;
+    margin-top:90px;
+    color: rgb(248, 248, 248);
+    justify-content: center;
+    align-items: center;
+    width:30%;
+    text-align: center;
+}
+
+@media screen and (min-width:768px) {
+   .cards-container {
+    width:100%;
+    float:none;
+    padding:15px;
+    margin-top:20px;
+   }
+
+   .card1, .card2, .card3 {
+    margin-top:29px;
+    padding-left:10px;
+    padding-right:10px;
+   }
+   
+   .card {
+    width:80%;
+   }
+}
+
+
+.card img {
+   width:80%;
+   height:auto;
+}
+        
+.card {
+  margin:0 15px;
+  text-align: center;
+  padding:10px;
+  margin-bottom:15px;
+  padding:30px 0;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.members {
+ display: flex;
+  margin-top:70px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+
+

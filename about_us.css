@@ -1,0 +1,57 @@
+.Our-goals {
+    background-color: aquamarine;
+    margin:24px 22px;
+    border-radius: 50px;
+}
+        
+div h2 {
+    font-size:30px;
+    font-family: fantasy;
+    margin-left:20px;
+    }
+        
+div p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode'
+    }
+        
+    .row {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-wrap: wrap;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 20px;
+            padding-top: 20px;
+
+        }
+        div p {
+            font-size: 20px;
+            text-align: center;
+        }
+    
+        .mission {
+            font-size: 50px;
+            margin-left:20px ;
+        }
+        .policy {
+            font-size: 50px;
+            margin-left:20px ;
+        }
+       .vision {
+            font-size: 50px;
+            margin-left:20px ;
+        }
+       .Team-members {
+        background-color: aquamarine;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width:20%;
+        text-align: center;
+        margin:0 auto;
+        font-size: 30px;
+        padding:8px;
+        border-radius: 9px;
+       }
